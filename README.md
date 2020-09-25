@@ -106,7 +106,7 @@ After accepting PR the new release will be created.
 To use a specific version of kubectl use:
 
 ```yaml
-- uses: actions-hub/kubectl@v1.17.9
+- uses: arslnmsd/kubectl@v1.17.9
   env:
     KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
   with:
